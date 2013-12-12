@@ -1,0 +1,5 @@
+/tsfoo/bin
+/tsfoo/obj
+*.suo
+*.csproj.user
+*.js.map
