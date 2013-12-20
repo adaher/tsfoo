@@ -17,17 +17,19 @@
     <IISExpressUseClassicPipelineMode />
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="app.css" />
+    <Content Include="css\app.css" />
+    <TypeScriptCompile Include="src\config.ts" />
     <Content Include="default.htm" />
-    <TypeScriptCompile Include="greeter-base.ts" />
-    <TypeScriptCompile Include="greeter-one.ts" />
-    <Content Include="jquery.d.ts" />
-    <Content Include="jquery.js" />
-    <Content Include="require.js" />
+    <TypeScriptCompile Include="src\greeter-base.ts" />
+    <TypeScriptCompile Include="src\greeter-one.ts" />
+    <Content Include="vendor\require.d.ts" />
+    <Content Include="vendor\jquery.d.ts" />
+    <Content Include="vendor\jquery.js" />
+    <Content Include="vendor\require.js" />
     <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="app.ts" />
+    <TypeScriptCompile Include="src\app.ts" />
   </ItemGroup>
   <ItemGroup>
     <None Include="web.Debug.config">

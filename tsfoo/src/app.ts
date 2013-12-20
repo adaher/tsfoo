@@ -1,4 +1,5 @@
-/// <reference path="jquery.d.ts" />
+/// <reference path="../vendor/jquery.d.ts" />
+
 import GreeterOne = require("greeter-one");
 import $ = require("jquery");
 
