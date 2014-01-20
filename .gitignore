@@ -1,5 +1,7 @@
 /tsfoo/bin
 /tsfoo/obj
+/tsfoo/dist
+/tsfoo/node_modules
 *.suo
 *.csproj.user
 *.js.map
