@@ -12,17 +12,24 @@ module.exports = function(grunt) {
             paths: { jquery: '../vendor/jquery' },
             wrap: true
         } } },
-        typescript: { base: {
-            dest: 'dist',
-            options: {
-                base_path: 'src',
-                comments: true,
-                module: 'amd',
-                sourcemap: true
+        typescript: {
+            amd: {
+                dest: 'dist',
+                options: { module: 'amd' },
+                src: [ 'src/**/*.ts' ]
             },
-            src: [ 'src/**/*.ts' ]
-        } }
+            commonjs: {
+                dest: 'dist',
+                options: { module: 'commonjs' },
+                src: [ 'src/**/*.ts' ]
+            },
+            options: {
+                basePath: 'src',
+                comments: true,
+                sourceMap: true
+            }
+        }
     });
     require('load-grunt-tasks')(grunt);
-    grunt.registerTask('default', [ 'clean', 'typescript', 'requirejs' ]);
+    grunt.registerTask('default', [ 'clean', 'typescript:amd', 'requirejs' ]);
 };
