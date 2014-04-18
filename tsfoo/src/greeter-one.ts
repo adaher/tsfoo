@@ -4,14 +4,14 @@ import $ = require("jquery");
 
 class GreeterOne extends GreeterBase {
 
-	start() {
-		console.log("starting...");
-		super.start();
-	}
+    start() {
+        console.log("starting...");
+        super.start();
+    }
 
-	log() {
-		console.log($().jquery);
-	}
+    log() {
+        console.log($().jquery);
+    }
 
 }
 export = GreeterOne;
