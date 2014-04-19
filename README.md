@@ -3,6 +3,12 @@ tsfoo
 
 TypeScript + RequireJS sample configuration
 
+## Introduction
+
+http://typescript.codeplex.com/wikipage?title=Modules%20in%20TypeScript
+
+## Configurations
+
 ### 1. Modules are dynamically loaded by RequireJS
 
 If you build the project in Visual Studio or run `grunt` without parameters, you'll have the compiled JS in the `compiled` folder. Open `default.htm` in the browser to see this configuration in action.
