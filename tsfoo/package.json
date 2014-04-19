@@ -1,12 +1,13 @@
 {
-  "name": "tsfoo",
-  "version": "0.1.0",
-  "devDependencies": {
-    "grunt": "~0.4.2",
-    "grunt-contrib-uglify": "~0.4.0",
-    "grunt-contrib-requirejs": "~0.4.1",
-    "grunt-typescript": "~0.3.0",
-    "load-grunt-tasks": "~0.4.0",
-    "grunt-contrib-clean": "~0.5.0"
-  }
+    "devDependencies": {
+        "grunt": "~0.4.2",
+        "grunt-contrib-clean": "~0.5.0",
+        "grunt-contrib-requirejs": "~0.4.1",
+        "grunt-contrib-uglify": "~0.4.0",
+        "grunt-dom-munger": "^3.4.0",
+        "grunt-typescript": "~0.3.0",
+        "load-grunt-tasks": "~0.4.0"
+    },
+    "name": "tsfoo",
+    "version": "0.1.0"
 }

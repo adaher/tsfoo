@@ -20,7 +20,7 @@
     <RootNamespace>tsfoo</RootNamespace>
     <TypeScriptTarget>ES5</TypeScriptTarget>
     <TypeScriptModuleKind>AMD</TypeScriptModuleKind>
-    <TypeScriptOutDir>dist</TypeScriptOutDir>
+    <TypeScriptOutDir>compiled</TypeScriptOutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
     <TypeScriptRemoveComments>false</TypeScriptRemoveComments>
