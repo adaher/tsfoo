@@ -17,6 +17,10 @@ If you build the project in Visual Studio or run `grunt` without parameters, you
 
 `grunt rjs`
 
+Open `rjs.htm` in the browser to see this configuration in action.
+
 ### 3. [Almond](https://github.com/jrburke/almond)
 
 `grunt almond`
+
+Open `almond.htm` in the browser to see this configuration in action.
