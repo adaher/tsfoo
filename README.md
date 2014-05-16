@@ -19,8 +19,14 @@ If you build the project in Visual Studio or run `grunt` without parameters, you
 
 Open `rjs.htm` in the browser to see this configuration in action.
 
-### 3. [Almond](https://github.com/jrburke/almond)
+### 3. Stand-alone one-file bundle (uses [Almond](https://github.com/jrburke/almond))
 
 `grunt almond`
 
 Open `almond.htm` in the browser to see this configuration in action.
+
+## See also
+
+Related open issues (basicly, it's the same issue):
+* [A config file to tell typescript compiler how to interpret AMD paths](http://typescript.codeplex.com/workitem/911)
+* [Separate Module ID from type information location](https://typescript.codeplex.com/workitem/934)
